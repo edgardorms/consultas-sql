@@ -91,3 +91,5 @@ COMMIT;
 2.6 SELECT * FROM `empleados` WHERE `Departamento` IN(37, 77);
 2.7 SELECT * FROM `empleados` WHERE `Apellido` LIKE 'P%';
 2.8 SELECT `Presupuesto` FROM `departamentos`;
+2.9 SELECT * FROM `empleados` INNER JOIN departamentos ON empleados.Departamento = departamentos.Codigo;
+
